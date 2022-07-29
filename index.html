@@ -9,6 +9,8 @@
 
     <!-- Font awesome link -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"/>
+    <!-- Custom css -->
+    <link rel="stylesheet" href="style.css">
 
    <!-- Title -->
     <title>Qurio Tech</title>
@@ -25,19 +27,19 @@
               <div class="collapse navbar-collapse" id="navbarText">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    <a class="nav-link active" aria-current="page" href="#home">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Browse Courses</a>
+                    <a class="nav-link" href="#courses">Browse Courses</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="#">About</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">FAQ</a>
+                    <a class="nav-link" href="#faq">FAQ</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Register</a>
+                    <a class="nav-link" href="#company">Company</a>
                   </li>
                 </ul>
                 <span class="navbar-text">
@@ -49,7 +51,7 @@
 
         <!-- navbar ends -->
         <!-- Slider starts -->
-        <section class="mt-5">
+        <section id="home" class="my-5 slider">
             <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
                 <div class="carousel-indicators">
                   <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -60,30 +62,30 @@
                     <!-- first slide -->
                   <div class="carousel-item active bg-dark rounded-2">
                     <img src="images/cover/My project.png" class="d-block w-100 opacity-75" alt="...">
-                    <div class="carousel-caption d-md-block px-5 fs-2 text-info">
-                      <h1>Get Started Digital
+                    <div class="carousel-caption d-md-block px-5 fs-2 text-info text-center col-10 col-sm-10 col-md-8 col-lg-6 position-absolute content ">
+                      <h1 class="display-6 display-lg-3 fw-bold text-white text-capitalize" >Get Started Digital
                         Learning</h1>
-                      <p>Learn new skills online with top educators.</p>
+                      <p class="text-light fs-5" >Learn new skills online with top educators.</p>
                       <button class="btn btn-info">Enroll Now</button>
                     </div>
                   </div>
                   <!-- second slide -->
                   <div class="carousel-item bg-dark rounded-2">
                     <img src="images/cover/My project (1).jpg" class="d-block w-100 opacity-75" alt="...">
-                    <div class="carousel-caption d-md-block px-5 fs-2 text-info">
-                        <h1>Get Started Digital
+                    <div class="carousel-caption d-md-block px-5 fs-2 text-info text-center col-10 col-sm-10 col-md-8 col-lg-6 position-absolute content ">
+                        <h1 class="display-6 display-lg-3 fw-bold text-white text-capitalize">Get Started Digital
                           Learning</h1>
-                        <p>Learn new skills online with top educators.</p>
+                        <p class="text-light fs-5">Learn new skills online with top educators.</p>
                         <button class="btn btn-info">Enroll Now</button>
                       </div>
                     </div>
                   <!-- third slide -->
                   <div class="carousel-item bg-dark rounded-2">
                     <img src="images/cover/My project (2).jpg" class="d-block w-100 opacity-75" alt="...">
-                    <div class="carousel-caption d-md-block px-5 fs-2 text-info">
-                        <h1>Get Started Digital
+                    <div class="carousel-caption d-md-block px-5 fs-2 text-info text-center col-10 col-sm-10 col-md-8 col-lg-6 position-absolute content">
+                        <h1 class="display-6 display-lg-3 fw-bold text-white text-capitalize">Get Started Digital
                           Learning</h1>
-                        <p>Learn new skills online with top educators.</p>
+                        <p class="text-light fs-5">Learn new skills online with top educators.</p>
                         <button class="btn btn-info">Enroll Now</button>
                       </div>
                     </div>
@@ -105,7 +107,7 @@
     </header>
     <main>
       <!-- discover courses start -->
-      <section class="my-5">
+      <section id="courses" class="my-5">
         <div class="container py-5">
           <div class="row justify-content-center">
               <div class="text-center col-10 col-sm-10 col-md-8 col-lg-6">
@@ -119,7 +121,7 @@
       
           <div class="row g-6 justify-content-center" >
             <!-- course 1 -->
-            <div class="card mb-3 d-flex flex-wrap justify-content-around align-items-center mx-3 card border border-0 shadow-lg h-100" style="max-width: 540px;">
+            <div class="card mb-3 d-flex flex-wrap justify-content-around align-items-center mx-3" style="max-width: 540px;">
               <div class="row g-0">
                 <div class="col-md-4">
                   <img src="images/course/course-1.png" class="img-fluid rounded-start" alt="...">
@@ -229,7 +231,7 @@
         <div class="container my-5">
             <div class="col-8 mx-auto">
                 <h1 class="text-black fw-bold text-center display-5 text-capitalize">Frequently Asked Question</h1>
-                <p class="text-secondary fs-4 text-center">Confused About Something? Don't worry check out our frequently asked questions and get a clear concept.</p>
+                <p class="text-secondary fs-4 text-center">Anything you need to know?So you can use FAQ section like a pro.</p>
             </div>
         </div>
         <div class="container">
@@ -238,7 +240,7 @@
                     <div class="accordion-item">
                       <h2 class="accordion-header" id="headingOne">
                         <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                           <p class="fw-bold fs-5 text-danger">What are differences between Flexbox and Grid?</p>
+                           <p class="fw-bold fs-5">What are differences between Flexbox and Grid?</p>
                         </button>
                       </h2>
                       <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
@@ -250,7 +252,7 @@
                     <div class="accordion-item">
                       <h2 class="accordion-header" id="headingTwo">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                            <p class="fw-bold fs-5 text-danger">What are differences between Bootstrap and Tailwind CSS?</p>
+                            <p class="fw-bold fs-5 ">What are differences between Bootstrap and Tailwind CSS?</p>
                         </button>
                       </h2>
                       <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
@@ -263,7 +265,7 @@
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="headingThree">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                <p class="fw-bold fs-5 text-danger">What is CSS Box Model?</p>
+                                <p class="fw-bold fs-5 ">What is CSS Box Model?</p>
                             </button>
                         </h2>
                         <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
@@ -276,7 +278,7 @@
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="headingFour">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                                <p class="fw-bold fs-5 text-danger">What is Semantic Tag?</p>
+                                <p class="fw-bold fs-5 ">What is Semantic Tag?</p>
                             </button>
                         </h2>
                         <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
